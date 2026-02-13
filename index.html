@@ -9,27 +9,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome Icons -->
-  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
-
+ 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <!-- Main CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <header class="hero">
-    <div class="container">
-      <img src="profile.png" alt="Jestoni Brion" class="profile-pic">
+    <div class="container row mx-auto align-items-center">
+      <img src="profile.png" alt="Jestoni Brion" class="profile-pic ">
+       <div class="col">
       <h1 class="name">Jestoni Brion</h1>
       <p class="title">Full Stack Developer - Shift Leader</p>
-      <p class="description">
-        2.5 years of experience as a full stack developer creating end-to-end web applications that
-satisfy user and business needs. demonstrated capacity to independently plan, create, andmanage full-stack solutions in hectic settings. Strong team player with developing leadershipabilities, committed to creating dependable, scalable, and superior systems.
-      </p>
+      </div>
     </div>
   </header>
 
   <main class="container">
-
+      <p class="description">
+        2.5 years of experience as a full stack developer creating end-to-end web applications that
+satisfy user and business needs. demonstrated capacity to independently plan, create, andmanage full-stack solutions in hectic settings. Strong team player with developing leadershipabilities, committed to creating dependable, scalable, and superior systems.
+      </p>
     <!-- Work Experience -->
     <section id="experience">
       <h2>Work Experience</h2>
@@ -59,6 +60,7 @@ satisfy user and business needs. demonstrated capacity to independently plan, cr
         <li>CSS / HTML</li>
         <li>Tailwind / Bootstrap</li>
         <li>JavaScript</li>
+        <li>TypeScript</li>
         <li>React Js</li>
         <li>Redux</li>
         <li>Node.js w/ Express</li>
@@ -68,6 +70,7 @@ satisfy user and business needs. demonstrated capacity to independently plan, cr
         <li>MySQL</li>
         <li>Git</li>
         <li>Jest</li>
+        <li>CI/CD</li>
       </ul>
     </section>
 
@@ -132,24 +135,35 @@ satisfy user and business needs. demonstrated capacity to independently plan, cr
       <div class="project-card">
      <h3>Real Estate Web Application — EutopiaCebu.com</h3>
 <p>Developed a modern real estate web application for Eutopia Cebu, enabling property listings, search filtering, and management of properties. Implemented features such as dynamic property pages, price range filtering, and admin management tools using Next.js and MongoDB.</p>
-        <a href="https://www.eutopiacebu.com/" target="_blank" rel="noopener noreferrer">View Project</a>
+        <a href="https://www.eutopiacebu.com/" target="_blank" rel="noopener noreferrer">
+      <img src="/eutopia-thumbnail.png" alt="Eutopia Cebu Thumbnail " class="w-full img-fluid">
+      <span>View Project</span>
+      </a>
       </div>
       <div class="project-card">
         <h3>Real Estate Web App — CebuBestProperties.com</h3>
  <p>Developed a modern real estate web application for Eutopia Cebu, enabling property listings, search filtering, and management of properties. Implemented features such as dynamic property pages, price range filtering, and admin management tools using Next.js, Node.js and MongoDB.</p>
-        <a href="https://www.cebubestproperties.com/" target="_blank" rel="noopener noreferrer">View Project</a>
+        <a href="https://www.cebubestproperties.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/cebubesproperties-thumbnail.png" alt="Eutopia Cebu Thumbnail " class="w-full img-fluid">
+           <span>View Project</span>
+           </a>
       </div>
       <div class="project-card">
        <h3>Real Estate Agents & Listings Platform</h3>
 <p>Developed a web platform to showcase real estate agents in Cebu, Philippines, along with their property listings and development projects. Built features for browsing agents, viewing individual listings, and exploring development projects efficiently. Implemented using modern web technologies for a dynamic and user-friendly experience.</p>
-<a href="https://www.findmyagent.net/" target="_blank" rel="noopener noreferrer">View Project</a>
-
+<a href="https://zaiko.website/" target="_blank" rel="noopener noreferrer">
+           <img src="/zaiko-thumbnail.png" alt="Zaiko Thumbnail " class="w-full img-fluid">
+                     <span>View Project</span>
+                     </a>
       </div>
            <div class="project-card">
         <h3>Doument Tracker</h3>
     <p>Developed a document tracking system for efficient monitoring and management of documents. Built with Next.js for the frontend, Node.js for the backend, and MongoDB as the database. Features include real-time tracking, user roles, and secure document handling.</p>
-<a href="https://philsca-doc-tracker.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
-      </div>
+<a href="https://philsca-doc-tracker.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <img src="/philscatracker.png" alt="Document Tracker Thumbnail " class="w-full img-fluid">     
+         <span>View Project</span>
+                     </a>
+</div>
       <!-- Repeat for more projects -->
     </section>
 
