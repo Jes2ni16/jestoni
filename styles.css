@@ -123,3 +123,9 @@ position: relative;
   color: #fff;
   border-color: #333;
 }
+
+@media (max-width:576px) {
+  .container.row.mx-auto{
+    flex-direction: column-reverse;
+  }
+}
